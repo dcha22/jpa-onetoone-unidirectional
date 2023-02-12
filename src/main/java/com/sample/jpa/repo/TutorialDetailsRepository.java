@@ -6,6 +6,7 @@ import com.sample.jpa.model.TutorialDetails;
 
 import jakarta.transaction.Transactional;
 
+// Test comment
 public interface TutorialDetailsRepository extends JpaRepository<TutorialDetails, Long> {
 	@Transactional
 	void deleteById(long id);
